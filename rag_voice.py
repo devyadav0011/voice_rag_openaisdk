@@ -19,7 +19,6 @@ from agents import Agent, Runner
 
 load_dotenv()
 
-# Constants
 COLLECTION_NAME = "voice-rag-agent"
 
 def init_session_state() -> None:
