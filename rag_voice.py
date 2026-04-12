@@ -208,7 +208,7 @@ async def process_query(
             raise Exception("No relevant documents found in the vector database")
         
         st.info("🔄 Step 2: Preparing context from search results...")
-        # Prepare context from search results
+       
         context = "Based on the following documentation:\n\n"
         for i, result in enumerate(search_results, 1):
             payload = result.payload
